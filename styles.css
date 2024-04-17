@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+   }
+   
+   /* Navigation Bar */
+   .navbar {
+    background-color: #007bff; /* Bootstrap's primary color */
+   }
+   
+   .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+   }
+   
+   .nav-link {
+    color: #fff;
+   }
+   
+   .nav-link:hover {
+    color: #ddd;
+   }
+   
+   .dropdown-menu {
+    background-color: #007bff;
+   }
+   
+   .dropdown-item {
+    color: #fff;
+   }
+   
+   .dropdown-item:hover {
+    background-color: #0056b3;
+    color: #fff;
+   }
+   
+   /* Home Page Content */
+   .container {
+    max-width: 960px; /* Center the content and limit its width */
+   }
+   
+   h1, h2 {
+    color: #007bff; /* Use Bootstrap's primary color for headings */
+   }
+   
+   .lead {
+    font-size: 1.25rem;
+    color: #6c757d; /* Bootstrap's secondary color for subtle text */
+   }
+   
+   ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+   }
+   
+   li::before {
+    content: "• ";
+    color: #007bff; /* Use Bootstrap's primary color for bullet points */
+   }
+   
+   /* Buttons */
+   .btn-primary {
+    background-color: #007bff; /* Bootstrap's primary color */
+    border-color: #007bff;
+   }
+   
+   .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+   }
+   
+   /* Footer */
+   footer {
+    background-color: #343a40; /* Bootstrap's dark color for the footer */
+    color: #fff;
+   }
+   
+  
+
